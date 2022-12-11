@@ -12,7 +12,7 @@
   </build>
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version></version>
+  <version>1</version>
   <packaging>war</packaging>
 
   <name>HelloWorldMaven</name>
