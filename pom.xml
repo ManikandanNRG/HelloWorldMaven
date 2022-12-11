@@ -26,13 +26,15 @@
     <url>http://18.222.232.190:8081/repository/maven-snapshots/</url>
    </snapshotRepository>
 </distributionManagement>
-
-  <dependencies>
-    <plugin>
+<build>
+   <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.6.3</version>
 </plugin>
+  </build>
+  <dependencies>
+   
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
