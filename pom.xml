@@ -28,6 +28,11 @@
 </distributionManagement>
 
   <dependencies>
+    <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.6.3</version>
+</plugin>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -35,9 +40,5 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.6.3</version>
-</plugin>
+  
 </project>
