@@ -12,8 +12,8 @@
   </build>
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version>1</version>
-  <packaging>jar</packaging>
+  <version>2.0.0</version>
+  <packaging>war</packaging>
 
   <name>HelloWorldMaven</name>
   <url>http://maven.apache.org</url>
